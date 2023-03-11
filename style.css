@@ -28,8 +28,25 @@ a:hover {
   text-decoration: underline;
 }
 
-p {
+.pp {
   color: rgb(191,64,64);
+  text-indent: 20px;
+  margin: 8px;
+  text-align: justify;
+  font-family: 'Tilt Neon', cursive;
+}
+.pp3, ul {
+  color: rgb(191,64,64);
+  margin: 8px;
+}
+.pp2 {
+  margin: 8px; 
+  color: DimGray;
+}
+.pp4, ul {
+  color: rgb(191,64,64);
+  margin: 15px;
+  list-style-type: decimal;
 }
 
 .t {
@@ -37,8 +54,20 @@ p {
   font-size: 18px;
 }
 
+.logo-clr {
+  color: #bf4040;
+}
+
 .logo {
   font-family: 'Climate Crisis';
+  /* text-decoration: none; */
+  list-style-type: none;
+}
+
+.logo2 {
+  height: 19px;
+  width: 19px;
+  padding: 5px;
 }
 
 /* .logo a:hover {
@@ -66,9 +95,10 @@ p {
 .toggle a {
   font-size: 11px;
 }
+
 footer {
   text-align: center;
-  padding: 3px;
+  padding: 3px;cl
   background-color: DarkSalmon;
   color: white;
 }
